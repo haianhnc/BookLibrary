@@ -1,4 +1,5 @@
 class BooksController < ApplicationController
+  layout 'standard'
   # Display a new form to User Submit
   def new
     @book = Book.new
